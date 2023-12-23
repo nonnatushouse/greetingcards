@@ -1,0 +1,18 @@
+
+
+.typewriter-window {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    color: rgb(0, 255, 0);
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.display-linebreak {
+    white-space: pre;
+}
+
+.msxmastree {
+    min-width: 90vh;
+}
