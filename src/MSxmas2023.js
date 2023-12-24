@@ -1,7 +1,8 @@
 import TypewriterWindow from './Typewriter/TypewriterWindow';
 
 const text= [
-" ",
+"             ",
+"‽",
 "\/\\",
 "\/  \\",
 "\/    \\",
@@ -26,7 +27,8 @@ const text= [
 "|___|",
 "      ",
 "      ",
-"God Jul :)",
+"God Jul Matildha! :)",
+" ",
 " ",
 ]
 
@@ -34,11 +36,12 @@ export default function MSxmas2023() {
 
 
 
-    return(        
+    return(    
     <TypewriterWindow className="msxmastree"
     text={text}
     speed={50}
+    reverse={true}
   />
- 
+
   )
 }
